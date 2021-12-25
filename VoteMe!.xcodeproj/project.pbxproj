@@ -1,0 +1,1219 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C310CE2827525E650007CDCB /* VMLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C310CE2727525E650007CDCB /* VMLoginViewController.m */; };
+		C310CE2D275265680007CDCB /* VMVoteDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C310CE2C275265680007CDCB /* VMVoteDetailViewController.m */; };
+		C310CE30275321070007CDCB /* UIWindow+KeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = C310CE2F275321070007CDCB /* UIWindow+KeyWindow.m */; };
+		C310CE3427532FF50007CDCB /* VMRankPageUserCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = C310CE3327532FF50007CDCB /* VMRankPageUserCardView.m */; };
+		C310CE372753367C0007CDCB /* VMRankListBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = C310CE362753367C0007CDCB /* VMRankListBoardView.m */; };
+		C310CE3A275336C50007CDCB /* VMRankBoardCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = C310CE39275336C50007CDCB /* VMRankBoardCellView.m */; };
+		C310CE41275353870007CDCB /* VMBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C310CE40275353870007CDCB /* VMBaseModel.m */; };
+		C310CE44275353A50007CDCB /* VMRankBoardCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C310CE43275353A50007CDCB /* VMRankBoardCellModel.m */; };
+		C310CE4727535E1A0007CDCB /* VMRankTipsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C310CE4627535E1A0007CDCB /* VMRankTipsViewController.m */; };
+		C310CE4927536AF40007CDCB /* OCRAStd.otf in Resources */ = {isa = PBXBuildFile; fileRef = C310CE4827536AF40007CDCB /* OCRAStd.otf */; };
+		C310CE4E275376560007CDCB /* VMUserPageButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C310CE4D275376560007CDCB /* VMUserPageButton.m */; };
+		C310CE5527539D110007CDCB /* VMCardListCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C310CE5427539D110007CDCB /* VMCardListCellModel.m */; };
+		C310CE582753A0920007CDCB /* VMCardOptionView.m in Sources */ = {isa = PBXBuildFile; fileRef = C310CE572753A0920007CDCB /* VMCardOptionView.m */; };
+		C310CE5C27550DBD0007CDCB /* VMPostNewVoteController.m in Sources */ = {isa = PBXBuildFile; fileRef = C310CE5B27550DBD0007CDCB /* VMPostNewVoteController.m */; };
+		C32EDAD0274FC64400290F3C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C32EDACF274FC64400290F3C /* AppDelegate.m */; };
+		C32EDAD3274FC64400290F3C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C32EDAD2274FC64400290F3C /* SceneDelegate.m */; };
+		C32EDAD6274FC64400290F3C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C32EDAD5274FC64400290F3C /* ViewController.m */; };
+		C32EDAD9274FC64400290F3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C32EDAD7274FC64400290F3C /* Main.storyboard */; };
+		C32EDADB274FC64500290F3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C32EDADA274FC64500290F3C /* Assets.xcassets */; };
+		C32EDADE274FC64500290F3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C32EDADC274FC64500290F3C /* LaunchScreen.storyboard */; };
+		C32EDAE1274FC64500290F3C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C32EDAE0274FC64500290F3C /* main.m */; };
+		C334F20C275A270500A6BFED /* VMPictureDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = C334F20B275A270500A6BFED /* VMPictureDetailView.m */; };
+		C334F212275A44C900A6BFED /* VMViewControllerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C334F211275A44C900A6BFED /* VMViewControllerManager.m */; };
+		C334F216275A7F0800A6BFED /* VMNewVoteModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C334F215275A7F0800A6BFED /* VMNewVoteModel.m */; };
+		C355A1A8276C61DD00E81A4F /* VMResetPasswordController.m in Sources */ = {isa = PBXBuildFile; fileRef = C355A1A7276C61DD00E81A4F /* VMResetPasswordController.m */; };
+		C355A1AB276C736B00E81A4F /* VMNotificationListController.m in Sources */ = {isa = PBXBuildFile; fileRef = C355A1AA276C736B00E81A4F /* VMNotificationListController.m */; };
+		C355A1AE276C738F00E81A4F /* VMSystemNotificationListController.m in Sources */ = {isa = PBXBuildFile; fileRef = C355A1AD276C738F00E81A4F /* VMSystemNotificationListController.m */; };
+		C355A1B1276C73A100E81A4F /* VMNotificationDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = C355A1B0276C73A100E81A4F /* VMNotificationDetailController.m */; };
+		C355A1B4276C73B900E81A4F /* VMNotificationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C355A1B3276C73B900E81A4F /* VMNotificationCell.m */; };
+		C355A1B7276C741F00E81A4F /* VMSystemNotificationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C355A1B6276C741F00E81A4F /* VMSystemNotificationCell.m */; };
+		C355A1BB276C743600E81A4F /* VMNotificationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C355A1BA276C743600E81A4F /* VMNotificationModel.m */; };
+		C363A661275E48940010222D /* VMCommentDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = C363A660275E48940010222D /* VMCommentDetailController.m */; };
+		C363A669275E48FB0010222D /* VMCommentHostCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C363A668275E48FB0010222D /* VMCommentHostCell.m */; };
+		C363A66C275E490D0010222D /* VMCommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C363A66B275E490D0010222D /* VMCommentCell.m */; };
+		C363A66F2760896B0010222D /* VMNewVoteOptionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C363A66E2760896B0010222D /* VMNewVoteOptionModel.m */; };
+		C365C9C32755FC5A00842B00 /* VMBaseScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = C365C9C22755FC5A00842B00 /* VMBaseScrollView.m */; };
+		C365C9C92756198A00842B00 /* VMPostVoteCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = C365C9C82756198A00842B00 /* VMPostVoteCardView.m */; };
+		C365C9CC27561A2900842B00 /* VMPostVoteOpitionVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = C365C9CB27561A2900842B00 /* VMPostVoteOpitionVIew.m */; };
+		C365C9CF27566A1600842B00 /* VMVoteDetailCommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C365C9CE27566A1600842B00 /* VMVoteDetailCommentCell.m */; };
+		C365C9D327566A8900842B00 /* VMVoteDetailHostCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C365C9D227566A8900842B00 /* VMVoteDetailHostCell.m */; };
+		C365C9D627566BA900842B00 /* VMLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = C365C9D527566BA900842B00 /* VMLabel.m */; };
+		C365C9D927566F3000842B00 /* VMVoteDetailOptionView.m in Sources */ = {isa = PBXBuildFile; fileRef = C365C9D827566F3000842B00 /* VMVoteDetailOptionView.m */; };
+		C37727CC275B236E00B22B06 /* VMSetUserNameController.m in Sources */ = {isa = PBXBuildFile; fileRef = C37727CB275B236E00B22B06 /* VMSetUserNameController.m */; };
+		C37727D0275B4A4E00B22B06 /* VMVoteDetailHostModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C37727CF275B4A4E00B22B06 /* VMVoteDetailHostModel.m */; };
+		C37727D3275B4A6D00B22B06 /* VMVoteDetailCommentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C37727D2275B4A6D00B22B06 /* VMVoteDetailCommentModel.m */; };
+		C37727D6275B4FA300B22B06 /* VMCellConfigure.m in Sources */ = {isa = PBXBuildFile; fileRef = C37727D5275B4FA300B22B06 /* VMCellConfigure.m */; };
+		C37727D9275B5DF300B22B06 /* UIView+Shadow.m in Sources */ = {isa = PBXBuildFile; fileRef = C37727D8275B5DF300B22B06 /* UIView+Shadow.m */; };
+		C37727DC275B91FB00B22B06 /* VMCommentorView.m in Sources */ = {isa = PBXBuildFile; fileRef = C37727DB275B91FB00B22B06 /* VMCommentorView.m */; };
+		C37727E1275BA72800B22B06 /* VMNotificationBubbleView.m in Sources */ = {isa = PBXBuildFile; fileRef = C37727E0275BA72800B22B06 /* VMNotificationBubbleView.m */; };
+		C37727E5275CC33900B22B06 /* VMOrderSelectBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = C37727E4275CC33900B22B06 /* VMOrderSelectBarView.m */; };
+		C37727E8275DCC9A00B22B06 /* VMCardListOptionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C37727E7275DCC9A00B22B06 /* VMCardListOptionModel.m */; };
+		C37727EB275DCFCF00B22B06 /* VMUserTopBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = C37727EA275DCFCF00B22B06 /* VMUserTopBarView.m */; };
+		C37727EE275DE8CA00B22B06 /* VMUserVoteListController.m in Sources */ = {isa = PBXBuildFile; fileRef = C37727ED275DE8CA00B22B06 /* VMUserVoteListController.m */; };
+		C3853ED8274FC9AE00F4F2B0 /* VMUserDefaultManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C3853ED7274FC9AE00F4F2B0 /* VMUserDefaultManager.m */; };
+		C3853EDD274FCA4400F4F2B0 /* VMWebManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C3853EDC274FCA4400F4F2B0 /* VMWebManager.m */; };
+		C3853EE0274FCA4900F4F2B0 /* VMAPIPath.m in Sources */ = {isa = PBXBuildFile; fileRef = C3853EDF274FCA4900F4F2B0 /* VMAPIPath.m */; };
+		C3853EE6274FCA9400F4F2B0 /* VMCardListCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C3853EE5274FCA9400F4F2B0 /* VMCardListCollectionCell.m */; };
+		C3853EE9274FCA9D00F4F2B0 /* VMWaterFallLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C3853EE8274FCA9D00F4F2B0 /* VMWaterFallLayout.m */; };
+		C3853EEE274FCAD800F4F2B0 /* VMCardListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3853EED274FCAD800F4F2B0 /* VMCardListViewController.m */; };
+		C3853EF3274FCB0900F4F2B0 /* VMNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C3853EF2274FCB0900F4F2B0 /* VMNavigationBar.m */; };
+		C3853EF7274FCB2700F4F2B0 /* VMBottomBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C3853EF6274FCB2700F4F2B0 /* VMBottomBarItem.m */; };
+		C3853EFA274FCB3300F4F2B0 /* VMBottomTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C3853EF9274FCB3300F4F2B0 /* VMBottomTabBar.m */; };
+		C3853F00274FCB6400F4F2B0 /* VMMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3853EFF274FCB6400F4F2B0 /* VMMainViewController.m */; };
+		C3853F04274FCBA800F4F2B0 /* VMBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C3853F03274FCBA800F4F2B0 /* VMBaseTableViewCell.m */; };
+		C3853F07274FCBB600F4F2B0 /* VMBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = C3853F06274FCBB600F4F2B0 /* VMBaseView.m */; };
+		C3853F0A274FCBBD00F4F2B0 /* VMBaseViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = C3853F09274FCBBD00F4F2B0 /* VMBaseViewController.mm */; };
+		C3853F0E274FCC1800F4F2B0 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = C3853F0D274FCC1800F4F2B0 /* UIColor+Hex.m */; };
+		C3853F11274FCC2000F4F2B0 /* VMViewSizeAndColor.m in Sources */ = {isa = PBXBuildFile; fileRef = C3853F10274FCC2000F4F2B0 /* VMViewSizeAndColor.m */; };
+		C3853F18274FCE3200F4F2B0 /* VMRankingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3853F17274FCE3200F4F2B0 /* VMRankingViewController.m */; };
+		C3853F1C274FCE5800F4F2B0 /* VMUserPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3853F1B274FCE5800F4F2B0 /* VMUserPageViewController.m */; };
+		C3AD64B22767103E00E7CFB2 /* VMActionSheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = C3AD64B12767103E00E7CFB2 /* VMActionSheetView.m */; };
+		C3AD64B52767497B00E7CFB2 /* VMActionSheetItemButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C3AD64B42767497B00E7CFB2 /* VMActionSheetItemButton.m */; };
+		C3AD64BA27676C2C00E7CFB2 /* VMPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = C3AD64B927676C2C00E7CFB2 /* VMPopView.m */; };
+		C3CFD15C2772EDD50036CB77 /* VMPictureDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CFD15B2772EDD50036CB77 /* VMPictureDetailController.m */; };
+		C3CFD16427731CA60036CB77 /* VMPictureUploadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CFD16327731CA60036CB77 /* VMPictureUploadManager.m */; };
+		C3CFD168277416980036CB77 /* VMPictureUploadTask.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CFD167277416980036CB77 /* VMPictureUploadTask.m */; };
+		C3CFD16B27757A2C0036CB77 /* VMLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CFD16A27757A2C0036CB77 /* VMLoadingView.m */; };
+		C3CFD16E27775DED0036CB77 /* loadingGifImage.gif in Resources */ = {isa = PBXBuildFile; fileRef = C3CFD16D27775DED0036CB77 /* loadingGifImage.gif */; };
+		E185970A82D629478BF0B73F /* libPods-VoteMe!.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B1310D5A9E30B573EECC42 /* libPods-VoteMe!.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		17B1310D5A9E30B573EECC42 /* libPods-VoteMe!.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VoteMe!.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		238F92BF87C4B16F44F10414 /* Pods-VoteMe!.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoteMe!.release.xcconfig"; path = "Target Support Files/Pods-VoteMe!/Pods-VoteMe!.release.xcconfig"; sourceTree = "<group>"; };
+		3A65883480C051FD8AEE574A /* Pods-VoteMe!.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoteMe!.debug.xcconfig"; path = "Target Support Files/Pods-VoteMe!/Pods-VoteMe!.debug.xcconfig"; sourceTree = "<group>"; };
+		C310CE2627525E650007CDCB /* VMLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VMLoginViewController.h; sourceTree = "<group>"; };
+		C310CE2727525E650007CDCB /* VMLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VMLoginViewController.m; sourceTree = "<group>"; };
+		C310CE2B275265680007CDCB /* VMVoteDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VMVoteDetailViewController.h; sourceTree = "<group>"; };
+		C310CE2C275265680007CDCB /* VMVoteDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VMVoteDetailViewController.m; sourceTree = "<group>"; };
+		C310CE2E275321070007CDCB /* UIWindow+KeyWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+KeyWindow.h"; sourceTree = "<group>"; };
+		C310CE2F275321070007CDCB /* UIWindow+KeyWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+KeyWindow.m"; sourceTree = "<group>"; };
+		C310CE3227532FF50007CDCB /* VMRankPageUserCardView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VMRankPageUserCardView.h; sourceTree = "<group>"; };
+		C310CE3327532FF50007CDCB /* VMRankPageUserCardView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VMRankPageUserCardView.m; sourceTree = "<group>"; };
+		C310CE352753367C0007CDCB /* VMRankListBoardView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VMRankListBoardView.h; sourceTree = "<group>"; };
+		C310CE362753367C0007CDCB /* VMRankListBoardView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VMRankListBoardView.m; sourceTree = "<group>"; };
+		C310CE38275336C50007CDCB /* VMRankBoardCellView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VMRankBoardCellView.h; sourceTree = "<group>"; };
+		C310CE39275336C50007CDCB /* VMRankBoardCellView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VMRankBoardCellView.m; sourceTree = "<group>"; };
+		C310CE3F275353870007CDCB /* VMBaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VMBaseModel.h; sourceTree = "<group>"; };
+		C310CE40275353870007CDCB /* VMBaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VMBaseModel.m; sourceTree = "<group>"; };
+		C310CE42275353A50007CDCB /* VMRankBoardCellModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VMRankBoardCellModel.h; sourceTree = "<group>"; };
+		C310CE43275353A50007CDCB /* VMRankBoardCellModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VMRankBoardCellModel.m; sourceTree = "<group>"; };
+		C310CE4527535E1A0007CDCB /* VMRankTipsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VMRankTipsViewController.h; sourceTree = "<group>"; };
+		C310CE4627535E1A0007CDCB /* VMRankTipsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VMRankTipsViewController.m; sourceTree = "<group>"; };
+		C310CE4827536AF40007CDCB /* OCRAStd.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = OCRAStd.otf; sourceTree = "<group>"; };
+		C310CE4C275376560007CDCB /* VMUserPageButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VMUserPageButton.h; sourceTree = "<group>"; };
+		C310CE4D275376560007CDCB /* VMUserPageButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VMUserPageButton.m; sourceTree = "<group>"; };
+		C310CE5327539D110007CDCB /* VMCardListCellModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VMCardListCellModel.h; sourceTree = "<group>"; };
+		C310CE5427539D110007CDCB /* VMCardListCellModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VMCardListCellModel.m; sourceTree = "<group>"; };
+		C310CE562753A0920007CDCB /* VMCardOptionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VMCardOptionView.h; sourceTree = "<group>"; };
+		C310CE572753A0920007CDCB /* VMCardOptionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VMCardOptionView.m; sourceTree = "<group>"; };
+		C310CE5A27550DBD0007CDCB /* VMPostNewVoteController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VMPostNewVoteController.h; sourceTree = "<group>"; };
+		C310CE5B27550DBD0007CDCB /* VMPostNewVoteController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VMPostNewVoteController.m; sourceTree = "<group>"; };
+		C32EDACB274FC64400290F3C /* VoteMe!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VoteMe!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C32EDACE274FC64400290F3C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C32EDACF274FC64400290F3C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C32EDAD1274FC64400290F3C /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		C32EDAD2274FC64400290F3C /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		C32EDAD4274FC64400290F3C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C32EDAD5274FC64400290F3C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C32EDAD8274FC64400290F3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C32EDADA274FC64500290F3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C32EDADD274FC64500290F3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C32EDADF274FC64500290F3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C32EDAE0274FC64500290F3C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C334F20A275A270500A6BFED /* VMPictureDetailView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VMPictureDetailView.h; sourceTree = "<group>"; };
+		C334F20B275A270500A6BFED /* VMPictureDetailView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VMPictureDetailView.m; sourceTree = "<group>"; };
+		C334F210275A44C900A6BFED /* VMViewControllerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VMViewControllerManager.h; sourceTree = "<group>"; };
+		C334F211275A44C900A6BFED /* VMViewControllerManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VMViewControllerManager.m; sourceTree = "<group>"; };
+		C334F214275A7F0800A6BFED /* VMNewVoteModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VMNewVoteModel.h; sourceTree = "<group>"; };
+		C334F215275A7F0800A6BFED /* VMNewVoteModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VMNewVoteModel.m; sourceTree = "<group>"; };
+		C355A1A6276C61DD00E81A4F /* VMResetPasswordController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VMResetPasswordController.h; sourceTree = "<group>"; };
+		C355A1A7276C61DD00E81A4F /* VMResetPasswordController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VMResetPasswordController.m; sourceTree = "<group>"; };
+		C355A1A9276C736B00E81A4F /* VMNotificationListController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VMNotificationListController.h; sourceTree = "<group>"; };
+		C355A1AA276C736B00E81A4F /* VMNotificationListController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VMNotificationListController.m; sourceTree = "<group>"; };
+		C355A1AC276C738F00E81A4F /* VMSystemNotificationListController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VMSystemNotificationListController.h; sourceTree = "<group>"; };
+		C355A1AD276C738F00E81A4F /* VMSystemNotificationListController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VMSystemNotificationListController.m; sourceTree = "<group>"; };
+		C355A1AF276C73A100E81A4F /* VMNotificationDetailController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VMNotificationDetailController.h; sourceTree = "<group>"; };
+		C355A1B0276C73A100E81A4F /* VMNotificationDetailController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VMNotificationDetailController.m; sourceTree = "<group>"; };
+		C355A1B2276C73B900E81A4F /* VMNotificationCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VMNotificationCell.h; sourceTree = "<group>"; };
+		C355A1B3276C73B900E81A4F /* VMNotificationCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VMNotificationCell.m; sourceTree = "<group>"; };
+		C355A1B5276C741F00E81A4F /* VMSystemNotificationCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VMSystemNotificationCell.h; sourceTree = "<group>"; };
+		C355A1B6276C741F00E81A4F /* VMSystemNotificationCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VMSystemNotificationCell.m; sourceTree = "<group>"; };
+		C355A1B9276C743600E81A4F /* VMNotificationModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VMNotificationModel.h; sourceTree = "<group>"; };
+		C355A1BA276C743600E81A4F /* VMNotificationModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VMNotificationModel.m; sourceTree = "<group>"; };
+		C363A65F275E48940010222D /* VMCommentDetailController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VMCommentDetailController.h; sourceTree = "<group>"; };
+		C363A660275E48940010222D /* VMCommentDetailController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VMCommentDetailController.m; sourceTree = "<group>"; };
+		C363A667275E48FB0010222D /* VMCommentHostCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VMCommentHostCell.h; sourceTree = "<group>"; };
+		C363A668275E48FB0010222D /* VMCommentHostCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VMCommentHostCell.m; sourceTree = "<group>"; };
+		C363A66A275E490D0010222D /* VMCommentCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VMCommentCell.h; sourceTree = "<group>"; };
+		C363A66B275E490D0010222D /* VMCommentCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VMCommentCell.m; sourceTree = "<group>"; };
+		C363A66D2760896B0010222D /* VMNewVoteOptionModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VMNewVoteOptionModel.h; sourceTree = "<group>"; };
+		C363A66E2760896B0010222D /* VMNewVoteOptionModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VMNewVoteOptionModel.m; sourceTree = "<group>"; };
+		C363A6732761040D0010222D /* VMOptionSelectedProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VMOptionSelectedProtocol.h; sourceTree = "<group>"; };
+		C365C9C12755FC5A00842B00 /* VMBaseScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VMBaseScrollView.h; sourceTree = "<group>"; };
+		C365C9C22755FC5A00842B00 /* VMBaseScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VMBaseScrollView.m; sourceTree = "<group>"; };
+		C365C9C72756198A00842B00 /* VMPostVoteCardView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VMPostVoteCardView.h; sourceTree = "<group>"; };
+		C365C9C82756198A00842B00 /* VMPostVoteCardView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VMPostVoteCardView.m; sourceTree = "<group>"; };
+		C365C9CA27561A2900842B00 /* VMPostVoteOpitionVIew.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VMPostVoteOpitionVIew.h; sourceTree = "<group>"; };
+		C365C9CB27561A2900842B00 /* VMPostVoteOpitionVIew.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VMPostVoteOpitionVIew.m; sourceTree = "<group>"; };
+		C365C9CD27566A1600842B00 /* VMVoteDetailCommentCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VMVoteDetailCommentCell.h; sourceTree = "<group>"; };
+		C365C9CE27566A1600842B00 /* VMVoteDetailCommentCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VMVoteDetailCommentCell.m; sourceTree = "<group>"; };
+		C365C9D127566A8900842B00 /* VMVoteDetailHostCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VMVoteDetailHostCell.h; sourceTree = "<group>"; };
+		C365C9D227566A8900842B00 /* VMVoteDetailHostCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VMVoteDetailHostCell.m; sourceTree = "<group>"; };
+		C365C9D427566BA900842B00 /* VMLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VMLabel.h; sourceTree = "<group>"; };
+		C365C9D527566BA900842B00 /* VMLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VMLabel.m; sourceTree = "<group>"; };
+		C365C9D727566F3000842B00 /* VMVoteDetailOptionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VMVoteDetailOptionView.h; sourceTree = "<group>"; };
+		C365C9D827566F3000842B00 /* VMVoteDetailOptionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VMVoteDetailOptionView.m; sourceTree = "<group>"; };
+		C37727CA275B236E00B22B06 /* VMSetUserNameController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VMSetUserNameController.h; sourceTree = "<group>"; };
+		C37727CB275B236E00B22B06 /* VMSetUserNameController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VMSetUserNameController.m; sourceTree = "<group>"; };
+		C37727CE275B4A4E00B22B06 /* VMVoteDetailHostModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VMVoteDetailHostModel.h; sourceTree = "<group>"; };
+		C37727CF275B4A4E00B22B06 /* VMVoteDetailHostModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VMVoteDetailHostModel.m; sourceTree = "<group>"; };
+		C37727D1275B4A6D00B22B06 /* VMVoteDetailCommentModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VMVoteDetailCommentModel.h; sourceTree = "<group>"; };
+		C37727D2275B4A6D00B22B06 /* VMVoteDetailCommentModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VMVoteDetailCommentModel.m; sourceTree = "<group>"; };
+		C37727D4275B4FA300B22B06 /* VMCellConfigure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VMCellConfigure.h; sourceTree = "<group>"; };
+		C37727D5275B4FA300B22B06 /* VMCellConfigure.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VMCellConfigure.m; sourceTree = "<group>"; };
+		C37727D7275B5DF300B22B06 /* UIView+Shadow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Shadow.h"; sourceTree = "<group>"; };
+		C37727D8275B5DF300B22B06 /* UIView+Shadow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Shadow.m"; sourceTree = "<group>"; };
+		C37727DA275B91FB00B22B06 /* VMCommentorView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VMCommentorView.h; sourceTree = "<group>"; };
+		C37727DB275B91FB00B22B06 /* VMCommentorView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VMCommentorView.m; sourceTree = "<group>"; };
+		C37727DF275BA72800B22B06 /* VMNotificationBubbleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VMNotificationBubbleView.h; sourceTree = "<group>"; };
+		C37727E0275BA72800B22B06 /* VMNotificationBubbleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VMNotificationBubbleView.m; sourceTree = "<group>"; };
+		C37727E3275CC33900B22B06 /* VMOrderSelectBarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VMOrderSelectBarView.h; sourceTree = "<group>"; };
+		C37727E4275CC33900B22B06 /* VMOrderSelectBarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VMOrderSelectBarView.m; sourceTree = "<group>"; };
+		C37727E6275DCC9A00B22B06 /* VMCardListOptionModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VMCardListOptionModel.h; sourceTree = "<group>"; };
+		C37727E7275DCC9A00B22B06 /* VMCardListOptionModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VMCardListOptionModel.m; sourceTree = "<group>"; };
+		C37727E9275DCFCF00B22B06 /* VMUserTopBarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VMUserTopBarView.h; sourceTree = "<group>"; };
+		C37727EA275DCFCF00B22B06 /* VMUserTopBarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VMUserTopBarView.m; sourceTree = "<group>"; };
+		C37727EC275DE8CA00B22B06 /* VMUserVoteListController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VMUserVoteListController.h; sourceTree = "<group>"; };
+		C37727ED275DE8CA00B22B06 /* VMUserVoteListController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VMUserVoteListController.m; sourceTree = "<group>"; };
+		C3853ED6274FC9A900F4F2B0 /* VMUserDefaultManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VMUserDefaultManager.h; sourceTree = "<group>"; };
+		C3853ED7274FC9AE00F4F2B0 /* VMUserDefaultManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMUserDefaultManager.m; sourceTree = "<group>"; };
+		C3853EDA274FC9FD00F4F2B0 /* VMHandleWebResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMHandleWebResponse.h; sourceTree = "<group>"; };
+		C3853EDC274FCA4400F4F2B0 /* VMWebManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMWebManager.m; sourceTree = "<group>"; };
+		C3853EDE274FCA4700F4F2B0 /* VMAPIPath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VMAPIPath.h; sourceTree = "<group>"; };
+		C3853EDF274FCA4900F4F2B0 /* VMAPIPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMAPIPath.m; sourceTree = "<group>"; };
+		C3853EE1274FCA4B00F4F2B0 /* VMWebManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VMWebManager.h; sourceTree = "<group>"; };
+		C3853EE4274FCA9000F4F2B0 /* VMCardListCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMCardListCollectionCell.h; sourceTree = "<group>"; };
+		C3853EE5274FCA9400F4F2B0 /* VMCardListCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMCardListCollectionCell.m; sourceTree = "<group>"; };
+		C3853EE7274FCA9700F4F2B0 /* VMWaterFallLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VMWaterFallLayout.h; sourceTree = "<group>"; };
+		C3853EE8274FCA9D00F4F2B0 /* VMWaterFallLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMWaterFallLayout.m; sourceTree = "<group>"; };
+		C3853EEC274FCAD000F4F2B0 /* VMCardListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMCardListViewController.h; sourceTree = "<group>"; };
+		C3853EED274FCAD800F4F2B0 /* VMCardListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMCardListViewController.m; sourceTree = "<group>"; };
+		C3853EF1274FCB0000F4F2B0 /* VMNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMNavigationBar.h; sourceTree = "<group>"; };
+		C3853EF2274FCB0900F4F2B0 /* VMNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMNavigationBar.m; sourceTree = "<group>"; };
+		C3853EF5274FCB2400F4F2B0 /* VMBottomBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMBottomBarItem.h; sourceTree = "<group>"; };
+		C3853EF6274FCB2700F4F2B0 /* VMBottomBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMBottomBarItem.m; sourceTree = "<group>"; };
+		C3853EF8274FCB2F00F4F2B0 /* VMBottomTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMBottomTabBar.h; sourceTree = "<group>"; };
+		C3853EF9274FCB3300F4F2B0 /* VMBottomTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMBottomTabBar.m; sourceTree = "<group>"; };
+		C3853EFE274FCB6100F4F2B0 /* VMMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMMainViewController.h; sourceTree = "<group>"; };
+		C3853EFF274FCB6400F4F2B0 /* VMMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMMainViewController.m; sourceTree = "<group>"; };
+		C3853F02274FCBA200F4F2B0 /* VMBaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMBaseTableViewCell.h; sourceTree = "<group>"; };
+		C3853F03274FCBA800F4F2B0 /* VMBaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMBaseTableViewCell.m; sourceTree = "<group>"; };
+		C3853F05274FCBB100F4F2B0 /* VMBaseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VMBaseView.h; sourceTree = "<group>"; };
+		C3853F06274FCBB600F4F2B0 /* VMBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMBaseView.m; sourceTree = "<group>"; };
+		C3853F08274FCBB900F4F2B0 /* VMBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VMBaseViewController.h; sourceTree = "<group>"; };
+		C3853F09274FCBBD00F4F2B0 /* VMBaseViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = VMBaseViewController.mm; sourceTree = "<group>"; };
+		C3853F0C274FCC1400F4F2B0 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		C3853F0D274FCC1800F4F2B0 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		C3853F0F274FCC1D00F4F2B0 /* VMViewSizeAndColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMViewSizeAndColor.h; sourceTree = "<group>"; };
+		C3853F10274FCC2000F4F2B0 /* VMViewSizeAndColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMViewSizeAndColor.m; sourceTree = "<group>"; };
+		C3853F16274FCE3200F4F2B0 /* VMRankingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VMRankingViewController.h; sourceTree = "<group>"; };
+		C3853F17274FCE3200F4F2B0 /* VMRankingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VMRankingViewController.m; sourceTree = "<group>"; };
+		C3853F1A274FCE5800F4F2B0 /* VMUserPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VMUserPageViewController.h; sourceTree = "<group>"; };
+		C3853F1B274FCE5800F4F2B0 /* VMUserPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VMUserPageViewController.m; sourceTree = "<group>"; };
+		C3853F1D2750854B00F4F2B0 /* VMBottomTabBarProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VMBottomTabBarProtocol.h; sourceTree = "<group>"; };
+		C3AD64B02767103E00E7CFB2 /* VMActionSheetView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VMActionSheetView.h; sourceTree = "<group>"; };
+		C3AD64B12767103E00E7CFB2 /* VMActionSheetView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VMActionSheetView.m; sourceTree = "<group>"; };
+		C3AD64B32767497B00E7CFB2 /* VMActionSheetItemButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VMActionSheetItemButton.h; sourceTree = "<group>"; };
+		C3AD64B42767497B00E7CFB2 /* VMActionSheetItemButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VMActionSheetItemButton.m; sourceTree = "<group>"; };
+		C3AD64B827676C2C00E7CFB2 /* VMPopView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VMPopView.h; sourceTree = "<group>"; };
+		C3AD64B927676C2C00E7CFB2 /* VMPopView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VMPopView.m; sourceTree = "<group>"; };
+		C3CFD15A2772EDD50036CB77 /* VMPictureDetailController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VMPictureDetailController.h; sourceTree = "<group>"; };
+		C3CFD15B2772EDD50036CB77 /* VMPictureDetailController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VMPictureDetailController.m; sourceTree = "<group>"; };
+		C3CFD15E277300590036CB77 /* VMPictureDetailProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VMPictureDetailProtocol.h; sourceTree = "<group>"; };
+		C3CFD16227731CA60036CB77 /* VMPictureUploadManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VMPictureUploadManager.h; sourceTree = "<group>"; };
+		C3CFD16327731CA60036CB77 /* VMPictureUploadManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VMPictureUploadManager.m; sourceTree = "<group>"; };
+		C3CFD16527731ED90036CB77 /* VMPictureUploadProtocal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VMPictureUploadProtocal.h; sourceTree = "<group>"; };
+		C3CFD166277416980036CB77 /* VMPictureUploadTask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VMPictureUploadTask.h; sourceTree = "<group>"; };
+		C3CFD167277416980036CB77 /* VMPictureUploadTask.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VMPictureUploadTask.m; sourceTree = "<group>"; };
+		C3CFD16927757A2C0036CB77 /* VMLoadingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VMLoadingView.h; sourceTree = "<group>"; };
+		C3CFD16A27757A2C0036CB77 /* VMLoadingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VMLoadingView.m; sourceTree = "<group>"; };
+		C3CFD16D27775DED0036CB77 /* loadingGifImage.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loadingGifImage.gif; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C32EDAC8274FC64400290F3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E185970A82D629478BF0B73F /* libPods-VoteMe!.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C48610DC5DF58DC8420CEE4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3A65883480C051FD8AEE574A /* Pods-VoteMe!.debug.xcconfig */,
+				238F92BF87C4B16F44F10414 /* Pods-VoteMe!.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C310CE2327525E360007CDCB /* LoginAndRegister */ = {
+			isa = PBXGroup;
+			children = (
+				C310CE2427525E4A0007CDCB /* Login */,
+			);
+			path = LoginAndRegister;
+			sourceTree = "<group>";
+		};
+		C310CE2427525E4A0007CDCB /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				C310CE2527525E500007CDCB /* ViewController */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		C310CE2527525E500007CDCB /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C310CE2627525E650007CDCB /* VMLoginViewController.h */,
+				C310CE2727525E650007CDCB /* VMLoginViewController.m */,
+				C37727CA275B236E00B22B06 /* VMSetUserNameController.h */,
+				C37727CB275B236E00B22B06 /* VMSetUserNameController.m */,
+				C355A1A6276C61DD00E81A4F /* VMResetPasswordController.h */,
+				C355A1A7276C61DD00E81A4F /* VMResetPasswordController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C310CE292752654A0007CDCB /* VoteDetail */ = {
+			isa = PBXGroup;
+			children = (
+				C363A662275E48A60010222D /* CommentDetail */,
+				C37727CD275B4A0200B22B06 /* Model */,
+				C365C9D027566A1B00842B00 /* View */,
+				C310CE2A275265550007CDCB /* ViewController */,
+			);
+			path = VoteDetail;
+			sourceTree = "<group>";
+		};
+		C310CE2A275265550007CDCB /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C310CE2B275265680007CDCB /* VMVoteDetailViewController.h */,
+				C310CE2C275265680007CDCB /* VMVoteDetailViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C310CE3127532FCF0007CDCB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C310CE3227532FF50007CDCB /* VMRankPageUserCardView.h */,
+				C310CE3327532FF50007CDCB /* VMRankPageUserCardView.m */,
+				C310CE38275336C50007CDCB /* VMRankBoardCellView.h */,
+				C310CE39275336C50007CDCB /* VMRankBoardCellView.m */,
+				C310CE352753367C0007CDCB /* VMRankListBoardView.h */,
+				C310CE362753367C0007CDCB /* VMRankListBoardView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C310CE3E275353490007CDCB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C310CE42275353A50007CDCB /* VMRankBoardCellModel.h */,
+				C310CE43275353A50007CDCB /* VMRankBoardCellModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C310CE4A27536E050007CDCB /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				C310CE4827536AF40007CDCB /* OCRAStd.otf */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		C310CE4B275376310007CDCB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C310CE4C275376560007CDCB /* VMUserPageButton.h */,
+				C310CE4D275376560007CDCB /* VMUserPageButton.m */,
+				C37727E9275DCFCF00B22B06 /* VMUserTopBarView.h */,
+				C37727EA275DCFCF00B22B06 /* VMUserTopBarView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C310CE4F27539CB90007CDCB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C310CE5327539D110007CDCB /* VMCardListCellModel.h */,
+				C310CE5427539D110007CDCB /* VMCardListCellModel.m */,
+				C37727E6275DCC9A00B22B06 /* VMCardListOptionModel.h */,
+				C37727E7275DCC9A00B22B06 /* VMCardListOptionModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C310CE5927550D770007CDCB /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C310CE5A27550DBD0007CDCB /* VMPostNewVoteController.h */,
+				C310CE5B27550DBD0007CDCB /* VMPostNewVoteController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C32EDAC2274FC64400290F3C = {
+			isa = PBXGroup;
+			children = (
+				C32EDACD274FC64400290F3C /* VoteMe! */,
+				C32EDACC274FC64400290F3C /* Products */,
+				4C48610DC5DF58DC8420CEE4 /* Pods */,
+				C882791A5DD4F50243CCD5CC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C32EDACC274FC64400290F3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C32EDACB274FC64400290F3C /* VoteMe!.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C32EDACD274FC64400290F3C /* VoteMe! */ = {
+			isa = PBXGroup;
+			children = (
+				C3CFD16C27775DAA0036CB77 /* gif */,
+				C3853ED9274FC9EE00F4F2B0 /* Protocal */,
+				C310CE4A27536E050007CDCB /* Support */,
+				C3853ED5274FC99000F4F2B0 /* UserDefault */,
+				C3853EDB274FCA3C00F4F2B0 /* NetWork */,
+				C3853F0B274FCBDE00F4F2B0 /* APPConstant */,
+				C3853F01274FCB9300F4F2B0 /* BasePrototype */,
+				C3853EE2274FCA7D00F4F2B0 /* Module */,
+				C32EDACE274FC64400290F3C /* AppDelegate.h */,
+				C32EDACF274FC64400290F3C /* AppDelegate.m */,
+				C32EDAD1274FC64400290F3C /* SceneDelegate.h */,
+				C32EDAD2274FC64400290F3C /* SceneDelegate.m */,
+				C32EDAD4274FC64400290F3C /* ViewController.h */,
+				C32EDAD5274FC64400290F3C /* ViewController.m */,
+				C32EDAD7274FC64400290F3C /* Main.storyboard */,
+				C32EDADA274FC64500290F3C /* Assets.xcassets */,
+				C32EDADC274FC64500290F3C /* LaunchScreen.storyboard */,
+				C32EDADF274FC64500290F3C /* Info.plist */,
+				C32EDAE0274FC64500290F3C /* main.m */,
+				C37727D4275B4FA300B22B06 /* VMCellConfigure.h */,
+				C37727D5275B4FA300B22B06 /* VMCellConfigure.m */,
+			);
+			path = "VoteMe!";
+			sourceTree = "<group>";
+		};
+		C334F213275A7EDF00A6BFED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C334F214275A7F0800A6BFED /* VMNewVoteModel.h */,
+				C334F215275A7F0800A6BFED /* VMNewVoteModel.m */,
+				C363A66D2760896B0010222D /* VMNewVoteOptionModel.h */,
+				C363A66E2760896B0010222D /* VMNewVoteOptionModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C355A1B8276C742400E81A4F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C355A1B9276C743600E81A4F /* VMNotificationModel.h */,
+				C355A1BA276C743600E81A4F /* VMNotificationModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C355A1BC276C8CD000E81A4F /* Commentor */ = {
+			isa = PBXGroup;
+			children = (
+				C37727DA275B91FB00B22B06 /* VMCommentorView.h */,
+				C37727DB275B91FB00B22B06 /* VMCommentorView.m */,
+			);
+			path = Commentor;
+			sourceTree = "<group>";
+		};
+		C363A662275E48A60010222D /* CommentDetail */ = {
+			isa = PBXGroup;
+			children = (
+				C363A666275E48DE0010222D /* Model */,
+				C363A665275E48D80010222D /* View */,
+				C363A664275E48C40010222D /* ViewController */,
+			);
+			path = CommentDetail;
+			sourceTree = "<group>";
+		};
+		C363A664275E48C40010222D /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C363A65F275E48940010222D /* VMCommentDetailController.h */,
+				C363A660275E48940010222D /* VMCommentDetailController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C363A665275E48D80010222D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C363A667275E48FB0010222D /* VMCommentHostCell.h */,
+				C363A668275E48FB0010222D /* VMCommentHostCell.m */,
+				C363A66A275E490D0010222D /* VMCommentCell.h */,
+				C363A66B275E490D0010222D /* VMCommentCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C363A666275E48DE0010222D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C365C9C02755FC1900842B00 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C365C9C72756198A00842B00 /* VMPostVoteCardView.h */,
+				C365C9C82756198A00842B00 /* VMPostVoteCardView.m */,
+				C365C9CA27561A2900842B00 /* VMPostVoteOpitionVIew.h */,
+				C365C9CB27561A2900842B00 /* VMPostVoteOpitionVIew.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C365C9D027566A1B00842B00 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C3AD64B627674B5C00E7CFB2 /* HomeActionSheetView */,
+				C365C9D127566A8900842B00 /* VMVoteDetailHostCell.h */,
+				C365C9D227566A8900842B00 /* VMVoteDetailHostCell.m */,
+				C365C9D727566F3000842B00 /* VMVoteDetailOptionView.h */,
+				C365C9D827566F3000842B00 /* VMVoteDetailOptionView.m */,
+				C365C9CD27566A1600842B00 /* VMVoteDetailCommentCell.h */,
+				C365C9CE27566A1600842B00 /* VMVoteDetailCommentCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C37727CD275B4A0200B22B06 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C37727CE275B4A4E00B22B06 /* VMVoteDetailHostModel.h */,
+				C37727CF275B4A4E00B22B06 /* VMVoteDetailHostModel.m */,
+				C37727D1275B4A6D00B22B06 /* VMVoteDetailCommentModel.h */,
+				C37727D2275B4A6D00B22B06 /* VMVoteDetailCommentModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C37727DD275BA6EB00B22B06 /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				C355A1B8276C742400E81A4F /* Model */,
+				C37727E2275CC1A300B22B06 /* ViewController */,
+				C37727DE275BA6F900B22B06 /* View */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		C37727DE275BA6F900B22B06 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C37727DF275BA72800B22B06 /* VMNotificationBubbleView.h */,
+				C37727E0275BA72800B22B06 /* VMNotificationBubbleView.m */,
+				C355A1B2276C73B900E81A4F /* VMNotificationCell.h */,
+				C355A1B3276C73B900E81A4F /* VMNotificationCell.m */,
+				C355A1B5276C741F00E81A4F /* VMSystemNotificationCell.h */,
+				C355A1B6276C741F00E81A4F /* VMSystemNotificationCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C37727E2275CC1A300B22B06 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C355A1A9276C736B00E81A4F /* VMNotificationListController.h */,
+				C355A1AA276C736B00E81A4F /* VMNotificationListController.m */,
+				C355A1AC276C738F00E81A4F /* VMSystemNotificationListController.h */,
+				C355A1AD276C738F00E81A4F /* VMSystemNotificationListController.m */,
+				C355A1AF276C73A100E81A4F /* VMNotificationDetailController.h */,
+				C355A1B0276C73A100E81A4F /* VMNotificationDetailController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C3853ED5274FC99000F4F2B0 /* UserDefault */ = {
+			isa = PBXGroup;
+			children = (
+				C3853ED6274FC9A900F4F2B0 /* VMUserDefaultManager.h */,
+				C3853ED7274FC9AE00F4F2B0 /* VMUserDefaultManager.m */,
+			);
+			path = UserDefault;
+			sourceTree = "<group>";
+		};
+		C3853ED9274FC9EE00F4F2B0 /* Protocal */ = {
+			isa = PBXGroup;
+			children = (
+				C3853EDA274FC9FD00F4F2B0 /* VMHandleWebResponse.h */,
+				C3853F1D2750854B00F4F2B0 /* VMBottomTabBarProtocol.h */,
+				C363A6732761040D0010222D /* VMOptionSelectedProtocol.h */,
+				C3CFD15E277300590036CB77 /* VMPictureDetailProtocol.h */,
+				C3CFD16527731ED90036CB77 /* VMPictureUploadProtocal.h */,
+			);
+			path = Protocal;
+			sourceTree = "<group>";
+		};
+		C3853EDB274FCA3C00F4F2B0 /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				C3853EDE274FCA4700F4F2B0 /* VMAPIPath.h */,
+				C3853EDF274FCA4900F4F2B0 /* VMAPIPath.m */,
+				C3853EE1274FCA4B00F4F2B0 /* VMWebManager.h */,
+				C3853EDC274FCA4400F4F2B0 /* VMWebManager.m */,
+				C3CFD15F277308150036CB77 /* PictureUploadManager */,
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		C3853EE2274FCA7D00F4F2B0 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				C37727DD275BA6EB00B22B06 /* Notification */,
+				C310CE2327525E360007CDCB /* LoginAndRegister */,
+				C3853EEF274FCAE700F4F2B0 /* Main */,
+				C3853EE3274FCA8300F4F2B0 /* Home */,
+				C3853F12274FCD1C00F4F2B0 /* Ranking */,
+				C3853F13274FCD2700F4F2B0 /* UserPage */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		C3853EE3274FCA8300F4F2B0 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C3853F14274FCD3000F4F2B0 /* PostNewVote */,
+				C310CE292752654A0007CDCB /* VoteDetail */,
+				C3853EEB274FCABD00F4F2B0 /* ViewController */,
+				C310CE4F27539CB90007CDCB /* Model */,
+				C3853EEA274FCAA100F4F2B0 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C3853EEA274FCAA100F4F2B0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C3853EE4274FCA9000F4F2B0 /* VMCardListCollectionCell.h */,
+				C3853EE5274FCA9400F4F2B0 /* VMCardListCollectionCell.m */,
+				C3853EE7274FCA9700F4F2B0 /* VMWaterFallLayout.h */,
+				C3853EE8274FCA9D00F4F2B0 /* VMWaterFallLayout.m */,
+				C310CE562753A0920007CDCB /* VMCardOptionView.h */,
+				C310CE572753A0920007CDCB /* VMCardOptionView.m */,
+				C37727E3275CC33900B22B06 /* VMOrderSelectBarView.h */,
+				C37727E4275CC33900B22B06 /* VMOrderSelectBarView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C3853EEB274FCABD00F4F2B0 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C3853EEC274FCAD000F4F2B0 /* VMCardListViewController.h */,
+				C3853EED274FCAD800F4F2B0 /* VMCardListViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C3853EEF274FCAE700F4F2B0 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				C3853EFE274FCB6100F4F2B0 /* VMMainViewController.h */,
+				C3853EFF274FCB6400F4F2B0 /* VMMainViewController.m */,
+				C355A1BC276C8CD000E81A4F /* Commentor */,
+				C3AD64B727676BDA00E7CFB2 /* PopView */,
+				C3853EF4274FCB0E00F4F2B0 /* BottomTabBar */,
+				C3CFD1592772EDAF0036CB77 /* PicureDetail */,
+				C3853EF0274FCAEF00F4F2B0 /* Navigation */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		C3853EF0274FCAEF00F4F2B0 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				C3853EF1274FCB0000F4F2B0 /* VMNavigationBar.h */,
+				C3853EF2274FCB0900F4F2B0 /* VMNavigationBar.m */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		C3853EF4274FCB0E00F4F2B0 /* BottomTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				C3853EF5274FCB2400F4F2B0 /* VMBottomBarItem.h */,
+				C3853EF6274FCB2700F4F2B0 /* VMBottomBarItem.m */,
+				C3853EF8274FCB2F00F4F2B0 /* VMBottomTabBar.h */,
+				C3853EF9274FCB3300F4F2B0 /* VMBottomTabBar.m */,
+			);
+			path = BottomTabBar;
+			sourceTree = "<group>";
+		};
+		C3853F01274FCB9300F4F2B0 /* BasePrototype */ = {
+			isa = PBXGroup;
+			children = (
+				C3853F02274FCBA200F4F2B0 /* VMBaseTableViewCell.h */,
+				C3853F03274FCBA800F4F2B0 /* VMBaseTableViewCell.m */,
+				C3853F05274FCBB100F4F2B0 /* VMBaseView.h */,
+				C3853F06274FCBB600F4F2B0 /* VMBaseView.m */,
+				C3853F08274FCBB900F4F2B0 /* VMBaseViewController.h */,
+				C3853F09274FCBBD00F4F2B0 /* VMBaseViewController.mm */,
+				C310CE3F275353870007CDCB /* VMBaseModel.h */,
+				C310CE40275353870007CDCB /* VMBaseModel.m */,
+				C365C9C12755FC5A00842B00 /* VMBaseScrollView.h */,
+				C365C9C22755FC5A00842B00 /* VMBaseScrollView.m */,
+				C365C9D427566BA900842B00 /* VMLabel.h */,
+				C365C9D527566BA900842B00 /* VMLabel.m */,
+			);
+			path = BasePrototype;
+			sourceTree = "<group>";
+		};
+		C3853F0B274FCBDE00F4F2B0 /* APPConstant */ = {
+			isa = PBXGroup;
+			children = (
+				C310CE2E275321070007CDCB /* UIWindow+KeyWindow.h */,
+				C310CE2F275321070007CDCB /* UIWindow+KeyWindow.m */,
+				C3853F0C274FCC1400F4F2B0 /* UIColor+Hex.h */,
+				C3853F0D274FCC1800F4F2B0 /* UIColor+Hex.m */,
+				C3853F0F274FCC1D00F4F2B0 /* VMViewSizeAndColor.h */,
+				C3853F10274FCC2000F4F2B0 /* VMViewSizeAndColor.m */,
+				C334F210275A44C900A6BFED /* VMViewControllerManager.h */,
+				C334F211275A44C900A6BFED /* VMViewControllerManager.m */,
+				C37727D7275B5DF300B22B06 /* UIView+Shadow.h */,
+				C37727D8275B5DF300B22B06 /* UIView+Shadow.m */,
+			);
+			path = APPConstant;
+			sourceTree = "<group>";
+		};
+		C3853F12274FCD1C00F4F2B0 /* Ranking */ = {
+			isa = PBXGroup;
+			children = (
+				C310CE3E275353490007CDCB /* Model */,
+				C310CE3127532FCF0007CDCB /* View */,
+				C3853F15274FCDFF00F4F2B0 /* ViewController */,
+			);
+			path = Ranking;
+			sourceTree = "<group>";
+		};
+		C3853F13274FCD2700F4F2B0 /* UserPage */ = {
+			isa = PBXGroup;
+			children = (
+				C310CE4B275376310007CDCB /* View */,
+				C3853F19274FCE4100F4F2B0 /* ViewController */,
+			);
+			path = UserPage;
+			sourceTree = "<group>";
+		};
+		C3853F14274FCD3000F4F2B0 /* PostNewVote */ = {
+			isa = PBXGroup;
+			children = (
+				C334F213275A7EDF00A6BFED /* Model */,
+				C365C9C02755FC1900842B00 /* View */,
+				C310CE5927550D770007CDCB /* ViewController */,
+			);
+			path = PostNewVote;
+			sourceTree = "<group>";
+		};
+		C3853F15274FCDFF00F4F2B0 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C3853F16274FCE3200F4F2B0 /* VMRankingViewController.h */,
+				C3853F17274FCE3200F4F2B0 /* VMRankingViewController.m */,
+				C310CE4527535E1A0007CDCB /* VMRankTipsViewController.h */,
+				C310CE4627535E1A0007CDCB /* VMRankTipsViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C3853F19274FCE4100F4F2B0 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C3853F1A274FCE5800F4F2B0 /* VMUserPageViewController.h */,
+				C3853F1B274FCE5800F4F2B0 /* VMUserPageViewController.m */,
+				C37727EC275DE8CA00B22B06 /* VMUserVoteListController.h */,
+				C37727ED275DE8CA00B22B06 /* VMUserVoteListController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C3AD64B627674B5C00E7CFB2 /* HomeActionSheetView */ = {
+			isa = PBXGroup;
+			children = (
+				C3AD64B32767497B00E7CFB2 /* VMActionSheetItemButton.h */,
+				C3AD64B42767497B00E7CFB2 /* VMActionSheetItemButton.m */,
+				C3AD64B02767103E00E7CFB2 /* VMActionSheetView.h */,
+				C3AD64B12767103E00E7CFB2 /* VMActionSheetView.m */,
+			);
+			path = HomeActionSheetView;
+			sourceTree = "<group>";
+		};
+		C3AD64B727676BDA00E7CFB2 /* PopView */ = {
+			isa = PBXGroup;
+			children = (
+				C3AD64B827676C2C00E7CFB2 /* VMPopView.h */,
+				C3AD64B927676C2C00E7CFB2 /* VMPopView.m */,
+				C3CFD16927757A2C0036CB77 /* VMLoadingView.h */,
+				C3CFD16A27757A2C0036CB77 /* VMLoadingView.m */,
+			);
+			path = PopView;
+			sourceTree = "<group>";
+		};
+		C3CFD1592772EDAF0036CB77 /* PicureDetail */ = {
+			isa = PBXGroup;
+			children = (
+				C334F20A275A270500A6BFED /* VMPictureDetailView.h */,
+				C334F20B275A270500A6BFED /* VMPictureDetailView.m */,
+				C3CFD15A2772EDD50036CB77 /* VMPictureDetailController.h */,
+				C3CFD15B2772EDD50036CB77 /* VMPictureDetailController.m */,
+			);
+			path = PicureDetail;
+			sourceTree = "<group>";
+		};
+		C3CFD15F277308150036CB77 /* PictureUploadManager */ = {
+			isa = PBXGroup;
+			children = (
+				C3CFD16227731CA60036CB77 /* VMPictureUploadManager.h */,
+				C3CFD16327731CA60036CB77 /* VMPictureUploadManager.m */,
+				C3CFD166277416980036CB77 /* VMPictureUploadTask.h */,
+				C3CFD167277416980036CB77 /* VMPictureUploadTask.m */,
+			);
+			path = PictureUploadManager;
+			sourceTree = "<group>";
+		};
+		C3CFD16C27775DAA0036CB77 /* gif */ = {
+			isa = PBXGroup;
+			children = (
+				C3CFD16D27775DED0036CB77 /* loadingGifImage.gif */,
+			);
+			path = gif;
+			sourceTree = "<group>";
+		};
+		C882791A5DD4F50243CCD5CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17B1310D5A9E30B573EECC42 /* libPods-VoteMe!.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C32EDACA274FC64400290F3C /* VoteMe! */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C32EDAE4274FC64500290F3C /* Build configuration list for PBXNativeTarget "VoteMe!" */;
+			buildPhases = (
+				85EB03326B31025D2B84E42F /* [CP] Check Pods Manifest.lock */,
+				C32EDAC7274FC64400290F3C /* Sources */,
+				C32EDAC8274FC64400290F3C /* Frameworks */,
+				C32EDAC9274FC64400290F3C /* Resources */,
+				4CC824573BB1EC177D1AC0B2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VoteMe!";
+			productName = "VoteMe!";
+			productReference = C32EDACB274FC64400290F3C /* VoteMe!.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C32EDAC3274FC64400290F3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					C32EDACA274FC64400290F3C = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = C32EDAC6274FC64400290F3C /* Build configuration list for PBXProject "VoteMe!" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C32EDAC2274FC64400290F3C;
+			productRefGroup = C32EDACC274FC64400290F3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C32EDACA274FC64400290F3C /* VoteMe! */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C32EDAC9274FC64400290F3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C32EDADE274FC64500290F3C /* LaunchScreen.storyboard in Resources */,
+				C32EDADB274FC64500290F3C /* Assets.xcassets in Resources */,
+				C3CFD16E27775DED0036CB77 /* loadingGifImage.gif in Resources */,
+				C310CE4927536AF40007CDCB /* OCRAStd.otf in Resources */,
+				C32EDAD9274FC64400290F3C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4CC824573BB1EC177D1AC0B2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VoteMe!/Pods-VoteMe!-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VoteMe!/Pods-VoteMe!-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VoteMe!/Pods-VoteMe!-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85EB03326B31025D2B84E42F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VoteMe!-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C32EDAC7274FC64400290F3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3853F07274FCBB600F4F2B0 /* VMBaseView.m in Sources */,
+				C3853EE6274FCA9400F4F2B0 /* VMCardListCollectionCell.m in Sources */,
+				C32EDAD6274FC64400290F3C /* ViewController.m in Sources */,
+				C355A1AB276C736B00E81A4F /* VMNotificationListController.m in Sources */,
+				C334F216275A7F0800A6BFED /* VMNewVoteModel.m in Sources */,
+				C37727EB275DCFCF00B22B06 /* VMUserTopBarView.m in Sources */,
+				C365C9C32755FC5A00842B00 /* VMBaseScrollView.m in Sources */,
+				C3853ED8274FC9AE00F4F2B0 /* VMUserDefaultManager.m in Sources */,
+				C3AD64B22767103E00E7CFB2 /* VMActionSheetView.m in Sources */,
+				C310CE3A275336C50007CDCB /* VMRankBoardCellView.m in Sources */,
+				C3853EF3274FCB0900F4F2B0 /* VMNavigationBar.m in Sources */,
+				C37727E5275CC33900B22B06 /* VMOrderSelectBarView.m in Sources */,
+				C37727E1275BA72800B22B06 /* VMNotificationBubbleView.m in Sources */,
+				C3CFD16B27757A2C0036CB77 /* VMLoadingView.m in Sources */,
+				C3853EEE274FCAD800F4F2B0 /* VMCardListViewController.m in Sources */,
+				C355A1AE276C738F00E81A4F /* VMSystemNotificationListController.m in Sources */,
+				C334F20C275A270500A6BFED /* VMPictureDetailView.m in Sources */,
+				C3853EE0274FCA4900F4F2B0 /* VMAPIPath.m in Sources */,
+				C365C9D927566F3000842B00 /* VMVoteDetailOptionView.m in Sources */,
+				C3853F18274FCE3200F4F2B0 /* VMRankingViewController.m in Sources */,
+				C3853F1C274FCE5800F4F2B0 /* VMUserPageViewController.m in Sources */,
+				C3853EFA274FCB3300F4F2B0 /* VMBottomTabBar.m in Sources */,
+				C37727CC275B236E00B22B06 /* VMSetUserNameController.m in Sources */,
+				C363A66F2760896B0010222D /* VMNewVoteOptionModel.m in Sources */,
+				C310CE41275353870007CDCB /* VMBaseModel.m in Sources */,
+				C3853EDD274FCA4400F4F2B0 /* VMWebManager.m in Sources */,
+				C310CE5C27550DBD0007CDCB /* VMPostNewVoteController.m in Sources */,
+				C310CE4727535E1A0007CDCB /* VMRankTipsViewController.m in Sources */,
+				C3853F00274FCB6400F4F2B0 /* VMMainViewController.m in Sources */,
+				C3CFD15C2772EDD50036CB77 /* VMPictureDetailController.m in Sources */,
+				C355A1BB276C743600E81A4F /* VMNotificationModel.m in Sources */,
+				C37727D3275B4A6D00B22B06 /* VMVoteDetailCommentModel.m in Sources */,
+				C3CFD168277416980036CB77 /* VMPictureUploadTask.m in Sources */,
+				C310CE44275353A50007CDCB /* VMRankBoardCellModel.m in Sources */,
+				C310CE2D275265680007CDCB /* VMVoteDetailViewController.m in Sources */,
+				C363A661275E48940010222D /* VMCommentDetailController.m in Sources */,
+				C37727D0275B4A4E00B22B06 /* VMVoteDetailHostModel.m in Sources */,
+				C3853EE9274FCA9D00F4F2B0 /* VMWaterFallLayout.m in Sources */,
+				C355A1B1276C73A100E81A4F /* VMNotificationDetailController.m in Sources */,
+				C3853F11274FCC2000F4F2B0 /* VMViewSizeAndColor.m in Sources */,
+				C310CE4E275376560007CDCB /* VMUserPageButton.m in Sources */,
+				C334F212275A44C900A6BFED /* VMViewControllerManager.m in Sources */,
+				C3AD64BA27676C2C00E7CFB2 /* VMPopView.m in Sources */,
+				C3853F0A274FCBBD00F4F2B0 /* VMBaseViewController.mm in Sources */,
+				C355A1B7276C741F00E81A4F /* VMSystemNotificationCell.m in Sources */,
+				C365C9D627566BA900842B00 /* VMLabel.m in Sources */,
+				C365C9C92756198A00842B00 /* VMPostVoteCardView.m in Sources */,
+				C363A669275E48FB0010222D /* VMCommentHostCell.m in Sources */,
+				C3853EF7274FCB2700F4F2B0 /* VMBottomBarItem.m in Sources */,
+				C37727EE275DE8CA00B22B06 /* VMUserVoteListController.m in Sources */,
+				C37727D9275B5DF300B22B06 /* UIView+Shadow.m in Sources */,
+				C37727DC275B91FB00B22B06 /* VMCommentorView.m in Sources */,
+				C37727D6275B4FA300B22B06 /* VMCellConfigure.m in Sources */,
+				C310CE372753367C0007CDCB /* VMRankListBoardView.m in Sources */,
+				C365C9CC27561A2900842B00 /* VMPostVoteOpitionVIew.m in Sources */,
+				C310CE30275321070007CDCB /* UIWindow+KeyWindow.m in Sources */,
+				C355A1B4276C73B900E81A4F /* VMNotificationCell.m in Sources */,
+				C3AD64B52767497B00E7CFB2 /* VMActionSheetItemButton.m in Sources */,
+				C3853F0E274FCC1800F4F2B0 /* UIColor+Hex.m in Sources */,
+				C37727E8275DCC9A00B22B06 /* VMCardListOptionModel.m in Sources */,
+				C310CE2827525E650007CDCB /* VMLoginViewController.m in Sources */,
+				C310CE5527539D110007CDCB /* VMCardListCellModel.m in Sources */,
+				C365C9CF27566A1600842B00 /* VMVoteDetailCommentCell.m in Sources */,
+				C365C9D327566A8900842B00 /* VMVoteDetailHostCell.m in Sources */,
+				C355A1A8276C61DD00E81A4F /* VMResetPasswordController.m in Sources */,
+				C310CE582753A0920007CDCB /* VMCardOptionView.m in Sources */,
+				C363A66C275E490D0010222D /* VMCommentCell.m in Sources */,
+				C32EDAD0274FC64400290F3C /* AppDelegate.m in Sources */,
+				C3853F04274FCBA800F4F2B0 /* VMBaseTableViewCell.m in Sources */,
+				C32EDAE1274FC64500290F3C /* main.m in Sources */,
+				C3CFD16427731CA60036CB77 /* VMPictureUploadManager.m in Sources */,
+				C310CE3427532FF50007CDCB /* VMRankPageUserCardView.m in Sources */,
+				C32EDAD3274FC64400290F3C /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C32EDAD7274FC64400290F3C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C32EDAD8274FC64400290F3C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C32EDADC274FC64500290F3C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C32EDADD274FC64500290F3C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C32EDAE2274FC64500290F3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C32EDAE3274FC64500290F3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C32EDAE5274FC64500290F3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A65883480C051FD8AEE574A /* Pods-VoteMe!.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5L6N3348HB;
+				INFOPLIST_FILE = "VoteMe!/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Pivot-Studio.VoteMe-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C32EDAE6274FC64500290F3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 238F92BF87C4B16F44F10414 /* Pods-VoteMe!.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5L6N3348HB;
+				INFOPLIST_FILE = "VoteMe!/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Pivot-Studio.VoteMe-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C32EDAC6274FC64400290F3C /* Build configuration list for PBXProject "VoteMe!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C32EDAE2274FC64500290F3C /* Debug */,
+				C32EDAE3274FC64500290F3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C32EDAE4274FC64500290F3C /* Build configuration list for PBXNativeTarget "VoteMe!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C32EDAE5274FC64500290F3C /* Debug */,
+				C32EDAE6274FC64500290F3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C32EDAC3274FC64400290F3C /* Project object */;
+}
